@@ -1,0 +1,13 @@
+{
+  "name": "OK.RU",
+  "version": "0.0.1",
+  "description": "OK App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "N_SeVeN",
+  "devDependencies": {
+    "electron": "^1.4.1"
+  }
+}

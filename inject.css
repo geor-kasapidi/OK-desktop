@@ -1,0 +1,7 @@
+.mailru-visibility-check,
+.exit-popup {
+    display: none !important
+}
+#mainContainer {
+    padding-top: 0 !important
+}
