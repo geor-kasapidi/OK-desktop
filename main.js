@@ -37,8 +37,8 @@ let mainWindow
 
 function createWindow() {
 	mainWindow = new BrowserWindow({
-		width: 1280,
-		height: 720,
+		width: 1024,
+		height: 768,
 		webPreferences: {
 			nodeIntegration: false,
 			preload: path.join(__dirname, 'preload.js')
@@ -60,7 +60,7 @@ function createWindow() {
 	})
 
 	mainWindow.loadURL(url.format({
-		pathname: 'ok.ru',
+		pathname: 's.ok.ru',
 		protocol: 'https:',
 		slashes: true
 	}))

@@ -1,5 +1,6 @@
 .mailru-visibility-check,
-.exit-popup {
+.exit-popup,
+#hook_Block_MessagesRedLink {
     display: none !important
 }
 #mainContainer {
